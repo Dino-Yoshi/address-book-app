@@ -1,0 +1,14 @@
+. 
+# dependencies (these are either large or secrets)
+node_modules/
+.env
+
+# ignore builds
+client/build/
+server/build/
+
+# ignore logs
+*.log
+
+# system
+.DS_Store
